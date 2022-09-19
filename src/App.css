@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+body {
+  background: hsl(233, 47%, 7%) !important;
+}
+.wrapper {
+  height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+  flex-direction: column;
+  /* variable  */
+  justify-content: space-between;
+}
+.img-wrapper {
+  background-image: url("/src/assets/image-header-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.border-radius-top {
+  border-radius: 10px 10px 0 0;
+}
+.card-body {
+  background: hsl(244, 38%, 16%);
+  border-radius: 0 0 10px 10px;
+}
+.main-paragraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+.stat-heading {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 15px;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.lexend {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 1200px) {
+  .wrapper {
+    justify-content: space-evenly;
+  }
+  .border-radius-top {
+    border-radius: 0 10px 10px 0;
+  }
+  .card-body {
+    border-radius: 10px 0 0 10px;
+  }
+  .img-wrapper {
+    background-image: url("/src/assets/image-header-desktop.jpg");
+  }
+}
