@@ -27,8 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Stats preview card component](https://03-stats-preview-card-component.vercel.app/)
 
 ## My process
 
