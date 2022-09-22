@@ -46,4 +46,4 @@ I want to continue to learn more about React and Typescript.
 ## Author
 
 - Frontend Mentor - [@Marcus-Giglio](https://www.frontendmentor.io/profile/Marcus-Giglio)
-- Linkedin - [@Marcus Giglio](https://www.linkedin.com/in/marcus-g-514b51175/)
+- Linkedin - [Marcus Giglio](https://www.linkedin.com/in/marcus-g-514b51175/)
